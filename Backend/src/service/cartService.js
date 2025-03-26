@@ -47,7 +47,7 @@ const getCartByUserId = async (userId) => {
     } catch (error) {
         throw new Error('Error fetching cart: ' + error.message);
     }
-};
+}
 
 module.exports = {
     createCart,
